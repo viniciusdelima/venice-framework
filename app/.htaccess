@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(.*template.*)$ $1 [L]
+    RewriteRule ^(.+\.php*)$ index.php   [L]
+    RewriteRule ^(.*)$ index.php
+</IfModule>
