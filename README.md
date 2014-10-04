@@ -1,4 +1,4 @@
-venice-framework
+Venice Framework
 ================
 
 Framework PHP para criação de sites e sistemas em MVC.
