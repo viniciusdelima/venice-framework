@@ -1,17 +1,17 @@
 <?php
-PDAutoload::load('User', 'user');
-PDAutoload::load('Administrator', 'user');
-PDAutoload::load('AdministratorDAO', 'user');
-PDAutoload::load('Editor', 'user');
-PDAutoload::load('EditorDAO', 'user');
-PDAutoload::load('Factory', 'object');
+VFAutoload::load('User', 'user');
+VFAutoload::load('Administrator', 'user');
+VFAutoload::load('AdministratorDAO', 'user');
+VFAutoload::load('Editor', 'user');
+VFAutoload::load('EditorDAO', 'user');
+VFAutoload::load('Factory', 'object');
 
 /**
  * Classe Factory para a instanciação de usuários no sistema.
  * Esta classe será responsável por devolver uma instância de um usuário Administrador ou
  * um usuário Editor.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package user
  */
 class UserFactory extends Factory {

@@ -1,10 +1,10 @@
 <?php
-PDAutoload::load('DAOInterface', 'object');
+VFAutoload::load('DAOInterface', 'object');
 /**
  * Classe DAO para a FAQ.
  * Através desta classe serão feitas as operações na tabela encarregada de armazenar as perguntas e respostas da FAQ.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package app
  */
 class FAQElementDAO implements DAOInterface {

@@ -656,7 +656,7 @@
   "use strict"; // jshint ;_;
 
 
- /* DROPDOWN CLASS DEFINITION
+ /* DROVFOWN CLASS DEFINITION
   * ========================= */
 
   var toggle = '[data-toggle=dropdown]'
@@ -764,7 +764,7 @@
   }
 
 
-  /* DROPDOWN PLUGIN DEFINITION
+  /* DROVFOWN PLUGIN DEFINITION
    * ========================== */
 
   var old = $.fn.dropdown
@@ -781,7 +781,7 @@
   $.fn.dropdown.Constructor = Dropdown
 
 
- /* DROPDOWN NO CONFLICT
+ /* DROVFOWN NO CONFLICT
   * ==================== */
 
   $.fn.dropdown.noConflict = function () {
@@ -790,7 +790,7 @@
   }
 
 
-  /* APPLY TO STANDARD DROPDOWN ELEMENTS
+  /* APPLY TO STANDARD DROVFOWN ELEMENTS
    * =================================== */
 
   $(document)

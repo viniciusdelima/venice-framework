@@ -1,10 +1,10 @@
 <?php
-PDAutoload::load('FAQElement', 'app');
-PDAutoload::load('Factory', 'object');
+VFAutoload::load('FAQElement', 'app');
+VFAutoload::load('Factory', 'object');
 /**
  * Classe Factory para a criação de elementos usados na FAQ (FAQElements).
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package app
  */
 class FAQElementFactory extends Factory {

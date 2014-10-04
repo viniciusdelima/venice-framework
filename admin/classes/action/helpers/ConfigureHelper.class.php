@@ -1,10 +1,10 @@
 <?php
-PDAutoload::load('ConfigureHelperInterface', 'action.helpers');
+VFAutoload::load('ConfigureHelperInterface', 'action.helpers');
 /**
  * Classe helper para a alterações do arquivo de configurações do sistema.
  * Este Helper terá o objetivo de atualizar o arquivo de configurações do sistema.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package action.helpers
  */
 class ConfigureHelper implements ConfigureHelperInterface {

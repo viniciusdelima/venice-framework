@@ -1,10 +1,10 @@
 <?php
-PDAutoload::loadModule('Basis');
+VFAutoload::loadModule('Basis');
 /**
  * Esta classe possui as ações do módulo Dashboard do sistema.
  * O módulo dashboard é o destino do usuário com poderes administrativos após logar no sistema.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package dashboard.actions
  */
 class DashboardAction extends BasisAction {

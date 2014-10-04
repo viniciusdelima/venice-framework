@@ -1,13 +1,13 @@
 <?php
-PDAutoload::load('Field', 'form');
-PDAutoload::load('RegisterFieldDAO', 'form');
-PDAutoload::load('ContactFieldDAO', 'form');
+VFAutoload::load('Field', 'form');
+VFAutoload::load('RegisterFieldDAO', 'form');
+VFAutoload::load('ContactFieldDAO', 'form');
 
 /**
  * Classe Factory para campos.
  * Esta classe cria uma instância de um campo de formulário.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package form
  */
 class FieldFactory extends Factory {

@@ -1,11 +1,11 @@
 <?php
-PDAutoload::load('UrlManipulationInterface', 'routing');
+VFAutoload::load('UrlManipulationInterface', 'routing');
 
 /**
  * Classe para manipulação de URL's.
  * Esta classe será usada pela classe routing na manipulação de URLS.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package routing
  */
 class UrlManipulation implements UrlManipulationInterface {

@@ -2,7 +2,7 @@
 /**
  * Interface padrão para coleção de objetos.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package object
  */
 interface CollectionInterface {

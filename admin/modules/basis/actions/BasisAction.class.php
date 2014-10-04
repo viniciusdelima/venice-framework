@@ -1,13 +1,13 @@
 <?php
-PDAutoload::load('PDAction', 'action');
+VFAutoload::load('VFAction', 'action');
 /**
- * Esta classe estende a classe PDAction.
+ * Esta classe estende a classe VFAction.
  * O objetivo padrão desta classe é oferecer atributos, validações e métodos que sirvam igualmente entre todas actions.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package bassis.actions
  */
-class BasisAction extends PDAction {
+class BasisAction extends VFAction {
 	/**
 	 * Array de módulos e actions que os usuários podem acessar mesmo estando offline.
 	 * @name urlAllowed
@@ -59,7 +59,7 @@ class BasisAction extends PDAction {
 	/**
 	 * Sobreescreve o método getMessage()
 	 * 
-	 * @see PDAction::getMessage()
+	 * @see VFAction::getMessage()
 	 */
 	public function getMessage() {
 		$message = parent::getMessage();

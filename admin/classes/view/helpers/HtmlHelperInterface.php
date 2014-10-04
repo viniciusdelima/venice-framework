@@ -3,7 +3,7 @@
  * Interface para o Html Helper.
  * Esta interface fornece os métodos básicos para gerênciamento de tags HTML através do Html Helper.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package view.helpers
  */
 interface HtmlHelperInterface {

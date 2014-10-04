@@ -3,14 +3,14 @@
  * Interface padrão de página.
  * Esta interface servirá todas as páginas do site.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package view
  */
 interface PageInterface {
 	/**
 	 * Renderiza a página atual.
 	 * 
-	 * @param PDAction $Module
+	 * @param VFAction $Module
 	 * @throws ViewNotFoundException
 	 * @return boolean
 	 */

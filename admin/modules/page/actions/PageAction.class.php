@@ -1,11 +1,11 @@
 <?php
-PDAutoload::loadModule('Basis');
-PDAutoload::load('AppPageFactory', 'app');
-PDAutoload::load('FAQElementFactory', 'app');
+VFAutoload::loadModule('Basis');
+VFAutoload::load('AppPageFactory', 'app');
+VFAutoload::load('FAQElementFactory', 'app');
 /**
  * Classe responsável por gerênciar e executar as actions do gerênciamento de páginas da visão do usuário (app).
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package page.actions
  */
 class PageAction extends BasisAction {

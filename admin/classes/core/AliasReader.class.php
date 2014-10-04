@@ -3,15 +3,15 @@
  * Esta Reader será usado para ler o arquivo de alias do sistema.
  * Neste arquivo encontram-se os pseudônimos usados para a interpretação de um URL personalizada.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package core
  */
-class AliasReader extends PDReader {
+class AliasReader extends VFReader {
 	/**
 	 * Construtor da classe.
 	 * Inicia a classe e chama o construtor da classe pai.
 	 * 
-	 * @see PDReader::__construct($path = null)
+	 * @see VFReader::__construct($path = null)
 	 * @return void
 	 */
 	public function __construct($path = null) {
@@ -21,7 +21,7 @@ class AliasReader extends PDReader {
 	/**
 	 * Sobreescreve o método read da classe pai.
 	 * 
-	 * @see PDReader::read($name = 'settings.ini')
+	 * @see VFReader::read($name = 'settings.ini')
 	 * @param boolean $additional
 	 * @return array
 	 */

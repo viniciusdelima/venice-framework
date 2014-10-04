@@ -3,7 +3,7 @@
  * Interface para a leitura de arquivos.
  * As classes que herdarem esta classe serão capazes de realizar a leitura de arquivos e informações sobre eles.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package file
  */
 interface FileReaderInterface {

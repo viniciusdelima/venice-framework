@@ -3,7 +3,7 @@
  * Interface padrão de uma FAQ.
  * Esta interface fornece os métodos necessários para a criação e gerênciamento de uma FAQ.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package app
  */
 interface FAQElementInterface {

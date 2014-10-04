@@ -2,7 +2,7 @@
 /**
  * Interface padrão usada para os Editores
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package user
  */
 interface EditorInterface {

@@ -2,7 +2,7 @@
 /*
  * Interface de Métodos do Bnanco de Dados
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package infraestructure
  */
 

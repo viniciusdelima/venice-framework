@@ -2,7 +2,7 @@
 /**
  * Interface padrão para classes DAO utilizadas no sistema.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package object
  */
 interface DAOInterface {

@@ -1,12 +1,12 @@
 <?php
-PDAutoload::load('Factory', 'object');
-PDAutoload::load('Session', 'util');
+VFAutoload::load('Factory', 'object');
+VFAutoload::load('Session', 'util');
 
 /**
  * Classe factory que fornece uma instância de uma sessão.
  * Esta classe usa o padrão Singleton para que não haja múltiplas instâncias de uma mesma sessão.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package util
  */
 class SessionFactory extends Factory {

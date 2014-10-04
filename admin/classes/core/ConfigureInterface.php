@@ -3,7 +3,7 @@
  * Interface para a classe Configure.
  * Esta interface prevê os métodos padrão para a classe Configure.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package core
  */
 interface ConfigureInterface {

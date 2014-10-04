@@ -1,12 +1,12 @@
 <?php
-PDAutoload::load('UserDAO', 'user');
+VFAutoload::load('UserDAO', 'user');
 
 /**
  * Classe DAO de um Editor.
  * Esta classe será responsável por gerênciar a comunicação de um Editor como banco de dados.
  * Através desta classe seram feitas todas as requisições, obtenções, inserções e alterações de dados no banco de dados.
  *
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package user
  */
 class EditorDAO extends UserDAO {

@@ -1,14 +1,14 @@
 <?php
-PDAutoload::load('User', 'user');
-PDAutoload::load('AdministratorInterface', 'user');
-PDAutoload::load('FormInterface', 'form');
-PDAutoload::load('AppPageInterface', 'app');
+VFAutoload::load('User', 'user');
+VFAutoload::load('AdministratorInterface', 'user');
+VFAutoload::load('FormInterface', 'form');
+VFAutoload::load('AppPageInterface', 'app');
 
 /**
  * Classe de Administrador.
  * Esta classe herda a classe base usuário e têm por objetivo representar um Administrador do sistema.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @abstract User
  * @package user
  */
@@ -38,7 +38,7 @@ class Administrator extends User implements AdministratorInterface, FormInterfac
 			}
 			return false;
 		}
-		catch (PDException $e) {
+		catch (VFException $e) {
 			return false;
 		}
 		catch (Exception $e) {

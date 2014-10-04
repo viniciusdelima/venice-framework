@@ -2,7 +2,7 @@
 /**
  * Esta interface fornece métodos utilitários na manipulação de arquivos.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package file
  */
 interface FileUtilities {

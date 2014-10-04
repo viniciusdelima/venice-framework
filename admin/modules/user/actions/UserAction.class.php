@@ -1,9 +1,9 @@
 <?php
-PDAutoload::loadModule('Basis');
+VFAutoload::loadModule('Basis');
 /**
  * Esta classe representa ações do modulo de usuário dentro do sistema como login e cadastro.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package user.actions
  */
 class UserAction extends BasisAction {

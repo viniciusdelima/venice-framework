@@ -5,7 +5,7 @@
  * Cada sessão é armazenada no array global do php $_SESSION.
  * Toda sessão têm um tempo de expiração pré-determinado.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package utils
  */
 class Session {

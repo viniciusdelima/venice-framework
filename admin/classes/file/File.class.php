@@ -1,13 +1,13 @@
 <?php
-PDAutoload::load('FileReaderInterface', 'file');
-PDAutoload::load('FileWriterInterface', 'file');
-PDAutoload::load('FileException', 'file.exceptions');
+VFAutoload::load('FileReaderInterface', 'file');
+VFAutoload::load('FileWriterInterface', 'file');
+VFAutoload::load('FileException', 'file.exceptions');
 /**
  * Classe para a manipulação de arquivos no sistema.
  * Esta classe terá por objetivo manipular e gerênciar a leitura e escrita de arquivos pelo sistema.
  * Para isso serão implementadas as interfaces FileReader e FileWriter.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package file
  */
 class File implements FileReaderInterface, FileWriterInterface {

@@ -3,7 +3,7 @@
  * Interface de escrita de arquivos.
  * Esta interface fornece métodos responsáveis pela escrita de arquivos no sistema.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package file
  */
 interface FileWriterInterface {

@@ -2,7 +2,7 @@
 /**
  * Interface padrão para o ConfigureHelper.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package action.helpers
  */
 interface ConfigureHelperInterface {

@@ -1,12 +1,12 @@
 <?php
 
-PDAutoload::load('DBInterface', 'infraestructure');
-PDAutoload::load('DBException', 'infraestructure.exceptions');
+VFAutoload::load('DBInterface', 'infraestructure');
+VFAutoload::load('DBException', 'infraestructure.exceptions');
 
 /**
  * Classe de banco de dados
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package infraestructure
  */
 class DB implements DBInterface {
@@ -22,7 +22,7 @@ class DB implements DBInterface {
 	 * Link de conexão com o banco de dados
 	 * @name conn
 	 * @access private
-	 * @var PDO
+	 * @var VFO
 	 */
 	private $conn;
 	
@@ -45,17 +45,17 @@ class DB implements DBInterface {
 			$dsn = 'mysql:dbname=' . $this->credentials['dbname'] . ';host=' . $this->credentials['dbhost'];
 			$username = $this->credentials['dbuser'];
 			$passwd = $this->credentials['dbpass'];
-			$options = array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8');
+			$options = array(VFO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8');
 			
 			try {
-				$this->conn = new PDO($dsn, $username, $passwd, $options);
+				$this->conn = new VFO($dsn, $username, $passwd, $options);
 				if (false == $this->conn || empty($this->conn)) {
 					throw new DBException(1, 'Erro ao estabelecer conexão com o banco de dados.');
 					return false;
 				}
 				return true;
 			}
-			catch (PDOException $e) {
+			catch (VFOException $e) {
 				throw new DBException(2, $e->getMessage());
 				return false;
 			}
@@ -96,7 +96,7 @@ class DB implements DBInterface {
 				throw new DBException(3, 'Erro ao executar query no banco de dados.');
 				return false;
 			}
-			catch (PDOException $e) {
+			catch (VFOException $e) {
 				throw new DBException(3, $e->getMessage());
 				return false;
 			}
@@ -120,7 +120,7 @@ class DB implements DBInterface {
 				throw new DBException(3, 'Erro ao executar query no banco de dados.');
 				return false;
 			}
-			catch (PDOException $e) {
+			catch (VFOException $e) {
 				throw new DBException(3, $e->getMessage());
 				return false;
 			}

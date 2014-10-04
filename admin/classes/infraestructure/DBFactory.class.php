@@ -1,13 +1,13 @@
 <?php
-PDAutoload::load('DB', 'infraestructure');
-PDAutoload::load('Factory', 'object');
+VFAutoload::load('DB', 'infraestructure');
+VFAutoload::load('Factory', 'object');
 
 /**
  * Classe para devolver uma instância de banco de dados.
  * Esta classe têm por objetivo ser uma Factory de instâncias da classe DB.
  * Esta classe usa os Design Patterns Factory e Singleton
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package infraestructure
  */
 class DBFactory extends Factory {

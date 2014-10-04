@@ -2,7 +2,7 @@
 /**
  * Interface para a classe de Administrador.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package user
  */
 interface AdministratorInterface {

@@ -1,12 +1,12 @@
 <?php
-PDAutoload::load('DAOInterface', 'object');
+VFAutoload::load('DAOInterface', 'object');
 
 /**
  * Classe DAO para usuário.
  * Esta classe têm como objetivo servir de classe base para todos usuários 
  * e realizar as tarefas mais comuns como inserção de usuários no banco, atualização e remoção.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package user
  */
 abstract class UserDAO implements DAOInterface {
@@ -80,7 +80,7 @@ abstract class UserDAO implements DAOInterface {
 			catch (DBException $e) {
 				return $e;
 			}
-			catch (PDException $e) {
+			catch (VFException $e) {
 				throw $e;
 			}
 		}

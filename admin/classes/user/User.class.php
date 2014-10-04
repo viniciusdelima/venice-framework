@@ -1,14 +1,14 @@
 <?php
-PDAutoload::load('UserInterface', 'user');
-PDAutoload::load('LoginException', 'user.exceptions');
-PDAutoload::load('RegisterException', 'user.exceptions');
-PDAutoload::load('UserNotFoundException', 'user.exceptions');
+VFAutoload::load('UserInterface', 'user');
+VFAutoload::load('LoginException', 'user.exceptions');
+VFAutoload::load('RegisterException', 'user.exceptions');
+VFAutoload::load('UserNotFoundException', 'user.exceptions');
 
 /**
  * Classe abstrata de Usuário.
  * Esta classe servirá como base para as classes Administrator e Editor
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package user
  */
 abstract class User implements UserInterface {

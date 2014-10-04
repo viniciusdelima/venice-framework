@@ -1,17 +1,17 @@
 <?php
-PDAutoload::load('PDException', 'exception');
+VFAutoload::load('VFException', 'exception');
 
 /**
  * Classe de excessão usada no cadastro de usuários no sistema.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package user/exceptions
  */
-class RegisterException extends PDException {
+class RegisterException extends VFException {
 	/**
 	 * Mensagem de erro padrão
 	 * 
-	 * @see PDException::errorMessage
+	 * @see VFException::errorMessage
 	 */
 	protected $errorMessage = 'Ocorreu um erro desconhecido ao cadastrar.';
 }

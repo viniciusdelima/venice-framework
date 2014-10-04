@@ -3,7 +3,7 @@
  * Esta classe tê por objetivo representar um campo de formulário.
  * Esta classe servirá de base para o gerênciamento dos campos dos formulários de cadastro e contato no sistema.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package form
  */
 class Field {

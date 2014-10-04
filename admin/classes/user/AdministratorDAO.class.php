@@ -1,12 +1,12 @@
 <?php
-PDAutoload::load('UserDAO', 'user');
+VFAutoload::load('UserDAO', 'user');
 
 /**
  * Classe DAO de um Administrador.
  * Esta classe será responsável por gerênciar a comunicação de um Administrador como banco de dados.
  * Através desta classe seram feitas todas as requisições, obtenções, inserções e alterações de dados no banco de dados.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package user
  */
 class AdministratorDAO extends UserDAO {
@@ -23,7 +23,7 @@ class AdministratorDAO extends UserDAO {
 	 * Cadastra um usuário no banco de dados.
 	 * 
 	 * @param User $User
-	 * @throws DBException, PDException, Exception
+	 * @throws DBException, VFException, Exception
 	 * @return boolean
 	 */
 	public function addUser($User) {
@@ -44,12 +44,12 @@ class AdministratorDAO extends UserDAO {
 				throw $e;
 				return false;
 			}
-			catch (PDException $e) {
+			catch (VFException $e) {
 				throw $e;
 				return false;
 			}
 		}
-		throw new PDException('O usuário informado já existe no banco de dados.');
+		throw new VFException('O usuário informado já existe no banco de dados.');
 		return false;
 	}
 }

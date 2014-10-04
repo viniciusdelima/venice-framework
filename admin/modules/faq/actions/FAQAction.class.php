@@ -1,11 +1,11 @@
 <?php 
-PDAutoload::loadModule('Basis');
-PDAutoload::load('FAQElementFactory', 'app');
-PDAutoload::load('AppPageFactory', 'app');
+VFAutoload::loadModule('Basis');
+VFAutoload::load('FAQElementFactory', 'app');
+VFAutoload::load('AppPageFactory', 'app');
 /**
  * Classe responsável por gerênciar e executar as actions do gerênciamento da FAQ da visão do usuário (app).
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package faq.actions
  */
 class FAQAction extends BasisAction {

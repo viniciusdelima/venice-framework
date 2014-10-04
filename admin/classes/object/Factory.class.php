@@ -7,7 +7,7 @@
  * Esta classe têm a possibilidade de usar ou não o padrão singleton, 
  * sendo que vêm por padrão com o uso de singleton desativado.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package object
  */
 abstract class Factory {

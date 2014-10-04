@@ -1,10 +1,10 @@
 <?php
-PDAutoload::load('Collection', 'object');
-PDAutoload::load('FAQElementCollectionInterface', 'app');
+VFAutoload::load('Collection', 'object');
+VFAutoload::load('FAQElementCollectionInterface', 'app');
 /**
  * Classe para o gerênciamento de uma coleção de FAQElements.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package app
  */
 class FAQElementCollection extends Collection implements FAQElementCollectionInterface {

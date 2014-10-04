@@ -1,12 +1,12 @@
 <?php
-PDAutoload::load('AppPageInterface', 'app');
-PDAutoload::load('FAQElementFactory', 'app');
-PDAutoload::load('FAQElementCollection', 'app');
+VFAutoload::load('AppPageInterface', 'app');
+VFAutoload::load('FAQElementFactory', 'app');
+VFAutoload::load('FAQElementCollection', 'app');
 /**
  * Esta classe servirá de classe base para uma página de hotsite do sistema.
  * Esta é a página que é exibida para os usuários comuns que logam no hotsite.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package app
  */
 class AppPage implements AppPageInterface {

@@ -5,7 +5,7 @@
  * durante a execução do sistema.
  * Esta classe será capaz também de gravar logs de erros em arquivos.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package error
  */
 class ErrorHandler {

@@ -2,7 +2,7 @@
 /**
  * Classe DAO usada na atualização de campos dos formulários pelo painel do Administrador.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package form
  */
 class RegisterFieldDAO implements DAOInterface {
@@ -57,7 +57,7 @@ class RegisterFieldDAO implements DAOInterface {
 			
 			try {
 				$DB = DBFactory::getInstance();
-				$query = "UPDATE pd_register_fields SET field_name=?, field_type=?, field_description=?, field_mandatory=?, field_active=? WHERE field_id=?";
+				$query = "UVFATE pd_register_fields SET field_name=?, field_type=?, field_description=?, field_mandatory=?, field_active=? WHERE field_id=?";
 				
 				/** Limpa os parâmetros para evitar sql_injection **/
 				foreach ($data as $k => $i) {
@@ -124,7 +124,7 @@ class RegisterFieldDAO implements DAOInterface {
 			catch (DBException $e) {
 				throw $e;
 			}
-			catch (PDException $e) {
+			catch (VFException $e) {
 				throw $e;
 			}
 		}

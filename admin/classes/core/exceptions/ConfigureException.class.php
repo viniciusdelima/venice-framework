@@ -1,17 +1,17 @@
 <?php
-PDAutoload::load('PDException', 'exception');
+VFAutoload::load('VFException', 'exception');
 /**
  * Classe de Exceção para o objeto Configure.
  * Esta classe será lançada toda vez que houver um erro na manipulação de configurações internas do site.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package core.exceptions
  */
-class ConfigureException extends PDException {
+class ConfigureException extends VFException {
 	/**
 	 * Mensagem de erro padrão
 	 *
-	 * @see PDException::errorMessage
+	 * @see VFException::errorMessage
 	 */
 	protected $errorMessage = 'Erro nas configurações internas do sistema.';
 }

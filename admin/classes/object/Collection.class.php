@@ -1,12 +1,12 @@
 <?php
-PDAutoload::load('CollectionInterface', 'object');
-PDAutoload::load('TypeMismatchException', 'object.exceptions');
+VFAutoload::load('CollectionInterface', 'object');
+VFAutoload::load('TypeMismatchException', 'object.exceptions');
 /**
  * Classe base par coleções dentro do sistema.
  * Esta classe têm como principal objetivo gerênciar e servir como classe base para a criação de 
  * coleções de objetos.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package object
  */
 class Collection implements CollectionInterface {

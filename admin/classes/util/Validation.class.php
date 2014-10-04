@@ -4,7 +4,7 @@
  * Esta classe servirá como utilitário de validação, usada para validar e filtrar 
  * inputs e outputs.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package util
  */
 class Validation {

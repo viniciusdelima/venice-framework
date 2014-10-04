@@ -2,7 +2,7 @@
 /**
  * Interface padrão para classe de coleção de FAQElements.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package app
  */
 interface FAQElementCollectionInterface {

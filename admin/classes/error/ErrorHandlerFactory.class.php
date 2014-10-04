@@ -1,11 +1,11 @@
 <?php
-PDAutoload::load('ErrorHandler', 'error');
-PDAutoload::load('Factory', 'object');
+VFAutoload::load('ErrorHandler', 'error');
+VFAutoload::load('Factory', 'object');
 
 /**
  * Classe factory para manipuladores de erro.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package error
  */
 class ErrorHandlerFactory extends Factory {

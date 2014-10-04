@@ -1,12 +1,12 @@
 <?php
-PDAutoload::load('PageInterface', 'view');
-PDAutoload::load('ViewNotFoundException', 'view.exceptions');
+VFAutoload::load('PageInterface', 'view');
+VFAutoload::load('ViewNotFoundException', 'view.exceptions');
 /**
  * Classe de página.
  * Esta classe têm por objetivo representar uma página.
  * Através desta classe serão instanciadas todas as views da página do Administrador.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package view
  */
 class Page implements PageInterface {
@@ -228,7 +228,7 @@ class Page implements PageInterface {
 	/**
 	 * Renderiza a página enviando a saída html para o navegador.
 	 * 
-	 * @param PDAction $Module
+	 * @param VFAction $Module
 	 * @throws ViewNotFoundException
 	 * @return void
 	 */

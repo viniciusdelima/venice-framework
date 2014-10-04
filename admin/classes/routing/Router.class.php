@@ -1,14 +1,14 @@
 <?php
 if ( !defined('DS')) { define('DS', DIRECTORY_SEPARATOR); };
 if ( !defined('ABSPATH')) { define('ADMIN_DIR', dirname( dirname( dirname(__FILE__)))); }
-PDAutoload::load('UrlManipulation', 'routing');
-PDAutoload::loadModule('Basis');
-PDAutoload::load('PDRequest', 'network');
+VFAutoload::load('UrlManipulation', 'routing');
+VFAutoload::loadModule('Basis');
+VFAutoload::load('VFRequest', 'network');
 
 /**
  * Esta classe têm por objetivo fazer o roteamento através de URLS e diretórios do sistema.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package route
  */
 class Router {
@@ -72,7 +72,7 @@ class Router {
 		 * para uma página de erro 404.
 		 */
 		try {
-			PDAutoload::loadModule($route['module']);
+			VFAutoload::loadModule($route['module']);
 		}
 		catch (Exception $e) {
 			self::redirectErrorPage(404);
@@ -173,7 +173,7 @@ class Router {
 				return ;
 			// }
 			/** catch ( Exception $e) {
-				throw new PDException(0, 'Erro desconhecido ao processar a requisição.');
+				throw new VFException(0, 'Erro desconhecido ao processar a requisição.');
 			} **/
 		}
 		self::redirectErrorPage($error);

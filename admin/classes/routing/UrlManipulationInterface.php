@@ -2,7 +2,7 @@
 /**
  * Interface de métodos úteis na manipulação de urls dentro do sistema.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package routing
  */
 interface UrlManipulationInterface {

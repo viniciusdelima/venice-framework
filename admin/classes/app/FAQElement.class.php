@@ -1,13 +1,13 @@
 <?php
-PDAutoload::load('FAQElementInterface', 'app');
-PDAutoload::load('FAQElementDAO', 'app');
-PDAutoload::load('FAQElementException', 'app.exceptions');
+VFAutoload::load('FAQElementInterface', 'app');
+VFAutoload::load('FAQElementDAO', 'app');
+VFAutoload::load('FAQElementException', 'app.exceptions');
 /**
  * Esta classe têm por objetivo representar o elemento principal de uma FAQ composto por uma pergunta e uma resposta.
  * Esta classe não representa uma Página da visão do usuário (AppPage), trata-se apenas de uma Entidade
  * responsável por gerênciar as perguntas e respostas que serão atribuídas a uma determinada AppPage.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package app
  */
 class FAQElement implements FAQElementInterface {

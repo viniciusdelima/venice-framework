@@ -2,7 +2,7 @@
 /**
  * Interface para manipulação de erros.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package error
  */
 interface ErrorHandlerInterface {

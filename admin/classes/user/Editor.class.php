@@ -1,11 +1,11 @@
 <?php
-PDAutoload::load('User', 'user');
-PDAutoload::load('EditorInterface', 'user');
+VFAutoload::load('User', 'user');
+VFAutoload::load('EditorInterface', 'user');
 
 /**
  * Classe para representar um Editor.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package user
  */
 class Editor extends User implements EditorInterface {

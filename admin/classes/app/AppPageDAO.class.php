@@ -1,10 +1,10 @@
 <?php
-PDAutoload::load('DAOInterface', 'object');
-PDAutoload::load('AppPageExistsException', 'app.exceptions');
+VFAutoload::load('DAOInterface', 'object');
+VFAutoload::load('AppPageExistsException', 'app.exceptions');
 /**
  * Classe DAO para a entidade AppPage.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package app
  */
 class AppPageDAO implements DAOInterface {
@@ -28,7 +28,7 @@ class AppPageDAO implements DAOInterface {
 					}
 					return false;
 				}
-				catch (PDException $e) {
+				catch (VFException $e) {
 					return false;
 				}
 			}
@@ -47,7 +47,7 @@ class AppPageDAO implements DAOInterface {
 	*/
 	public function update($AppPage) {
 		if ( $AppPage instanceof AppPage) {
-			$query = 'UPDATE pd_pages SET page_author =?, page_title=?, page_content=?, page_active=?, page_register_date=? WHERE page_id=?';
+			$query = 'UVFATE pd_pages SET page_author =?, page_title=?, page_content=?, page_active=?, page_register_date=? WHERE page_id=?';
 			$data = ArrayHelper::convertsToNumericKeys( $AppPage->getData());
 			$id = $data[0];
 			unset($data[0]);
@@ -113,7 +113,7 @@ class AppPageDAO implements DAOInterface {
 				$count = $DB->get($query, $data);
 				return $count[0][0] > 0;
 			}
-			catch ( PDException $e) {
+			catch ( VFException $e) {
 				return false;
 			}
 		}

@@ -3,7 +3,7 @@
  * Classe de manipulação de arrays.
  * Esta classe têm por objetivo ajudar a manipulação de arrays.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package util
  */
 class ArrayHelper {

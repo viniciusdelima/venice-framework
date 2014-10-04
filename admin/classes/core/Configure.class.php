@@ -1,11 +1,11 @@
 <?php
 /** Interface da Classe **/
-PDAutoload::load('ConfigureInterface', 'core');
-PDAutoload::load('ArrayHelper', 'util');
-PDAutoload::load('PDReader', 'core');
-PDAutoload::load('PDWriter', 'core');
-PDAutoload::load('AliasReader', 'core');
-PDAutoload::load('ConfigureException', 'core.exceptions');
+VFAutoload::load('ConfigureInterface', 'core');
+VFAutoload::load('ArrayHelper', 'util');
+VFAutoload::load('VFReader', 'core');
+VFAutoload::load('VFWriter', 'core');
+VFAutoload::load('AliasReader', 'core');
+VFAutoload::load('ConfigureException', 'core.exceptions');
 
 /**
  * Classe de configuração do sistema.
@@ -15,7 +15,7 @@ PDAutoload::load('ConfigureException', 'core.exceptions');
  * 
  * Esta classe se utilizará de Readers que realizarão a leitura das configuções a serem inseridas no sistema.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package core
  */
 class Configure implements ConfigureInterface {
@@ -25,7 +25,7 @@ class Configure implements ConfigureInterface {
 	 * @access private
 	 * @var array
 	 */
-	public static $readers = array('PDReader', 'AliasReader');
+	public static $readers = array('VFReader', 'AliasReader');
 	
 	/**
 	 * Writers que realizarão a escrita dos parâmetros de configuração nos seus respectivos arquivos.
@@ -33,7 +33,7 @@ class Configure implements ConfigureInterface {
 	 * @access private
 	 * @var array
 	 */
-	public static $writers = array('PDWriter');
+	public static $writers = array('VFWriter');
 	
 	/**
 	 * array de configurações.
@@ -53,10 +53,10 @@ class Configure implements ConfigureInterface {
 	 * @return void
 	 */
 	public static function bootstrap() {
-		if ( !in_array('PDReader', self::$readers)) {
-			self::$readers[] = 'PDReader';
+		if ( !in_array('VFReader', self::$readers)) {
+			self::$readers[] = 'VFReader';
 		}
-		$Reader = new PDReader();
+		$Reader = new VFReader();
 		self::write(null, $Reader->read('settings.ini'));
 		self::loadAlias();
 	}

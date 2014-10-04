@@ -1,12 +1,12 @@
 <?php
-PDAutoload::load('HtmlHelperInterface', 'view.helpers');
+VFAutoload::load('HtmlHelperInterface', 'view.helpers');
 
 /**
  * Classe Helper para elementos HTML e tags HTML.
  * Esta classe têm por objetivo auxiliar na criação de elementos HTML que se comuniquem com o sistema de alguma forma,
  * como por exemplo através de links, urls de arquivos, etc.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package view.helpers
  */
 class HtmlHelper implements HtmlHelperInterface {

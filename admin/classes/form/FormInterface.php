@@ -3,7 +3,7 @@
  * Interface de gerênciamento de formulários de cadastro dos usuários.
  * Esta interface provê métodos para a Administração de do formulário de cadastro usado pelos usuários do sistema.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package form
  */
 interface FormInterface {

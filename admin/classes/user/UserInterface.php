@@ -2,7 +2,7 @@
 /**
  * Interface padrão de Usuário
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package user
  */
 interface UserInterface {

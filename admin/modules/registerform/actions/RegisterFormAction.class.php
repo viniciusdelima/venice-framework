@@ -1,12 +1,12 @@
 <?php
-PDAutoload::load('FieldFactory', 'form');
-PDAutoload::loadModule('Basis');
+VFAutoload::load('FieldFactory', 'form');
+VFAutoload::loadModule('Basis');
 
 /**
  * Módulo de controle dos formulários de cadastro.
  * Este módulo será responsável por gerênciar os formulários de cadastro.
  * 
- * @author Pi Digital
+ * @author Vinicius C. de Lima <vinicius.c.lima03@gmail.com>
  * @package registerform
  */
 class RegisterFormAction extends BasisAction {
